@@ -15,6 +15,7 @@
                     @endif
 
                     You are logged in as User!
+                        <a href="{{route('user.logout')}}">User Logout</a>
                 </div>
             </div>
         </div>
