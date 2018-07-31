@@ -4,11 +4,12 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use App\Notifications\AdminPasswordResetNotification;
 
 class Admin extends Authenticatable
 {
     use Notifiable;
-
+protected $guard = 'admin';
     /**
      * The attributes that are mass assignable.
      *
@@ -26,4 +27,8 @@ class Admin extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+    public function sendPasswordResetNotification($token)
+    {
+        $this->notify(new AdminPasswordResetNotification($token));
+    }
 }

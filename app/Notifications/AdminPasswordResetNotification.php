@@ -10,17 +10,16 @@ use Illuminate\Notifications\Messages\MailMessage;
 class AdminPasswordResetNotification extends Notification
 {
     use Queueable;
-
+    public $token;
     /**
      * Create a new notification instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($token)
     {
-        //
+        $this->token = $token;
     }
-
     /**
      * Get the notification's delivery channels.
      *
@@ -42,7 +41,7 @@ class AdminPasswordResetNotification extends Notification
     {
         return (new MailMessage)
                     ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('/'))
+                    ->action('Admin Password Reset', route('admin.password.reset',$this->token))
                     ->line('Thank you for using our application!');
     }
 
