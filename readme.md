@@ -10,7 +10,7 @@
 <a href="https://www.facebook.com/groups/fullstackwebdevelopment/">Facebook Group |</a>
 <a href="https://plus.google.com/u/0/communities/113464467764075060760">Google Plus |</a>
 <a href="https://www.youtube.com/channel/UCqba1eUmmSCal1DbdaHONZA">Youtube  |</a>
-<a href="www.sumon-it.com">Web Site |</a>
+<a href="http://www.sumon-it.com">Web Site |</a>
 <a href="https://www.facebook.com/csesumonpro">Like Us</a>
 ## About Laravel
 
