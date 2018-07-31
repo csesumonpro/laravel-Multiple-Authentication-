@@ -1,4 +1,4 @@
-<p align="center"><img src="http://localhost/authentication/public/img/ml.jpg"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/29582239/43483047-48b3fa26-952c-11e8-886f-48e28de60953.jpg"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -9,6 +9,8 @@
 
 <a href="https://www.facebook.com/groups/fullstackwebdevelopment/">Facebook Group |</a>
 <a href="https://plus.google.com/u/0/communities/113464467764075060760">Google Plus |</a>
+<a href="https://www.youtube.com/channel/UCqba1eUmmSCal1DbdaHONZA">Youtube  |</a>
+<a href="www.sumon-it.com">Web Site |</a>
 <a href="https://www.facebook.com/csesumonpro">Like Us</a>
 ## About Laravel
 
